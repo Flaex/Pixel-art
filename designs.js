@@ -26,3 +26,5 @@ $('#pixel_canvas').on('click','td', function(e) {
   let pickedColor = $('#colorPicker').val();
   $(e.target).css('background-color', pickedColor);
 });
+
+//end of file
